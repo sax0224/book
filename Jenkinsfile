@@ -14,7 +14,8 @@
         mail = "sax0224@gmail.com"
         jobName = 'currentBuild.fullDisplayName   ' 
 
-	}      
+	}     
+	stages { 
         stage('Run API') {
             steps {
                 script {
